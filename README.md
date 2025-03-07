@@ -1,5 +1,7 @@
 <h1 align="center">HermesChat</h1>
 
+![Cover](./.github/cover.png)
+
 # Index
 
 - [About](#-about)
