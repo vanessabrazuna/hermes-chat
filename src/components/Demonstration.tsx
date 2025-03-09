@@ -12,7 +12,7 @@ export function Demonstration() {
         <div className="grid gap-6 place-items-center">
           <img
             src={Notebook}
-            className="h-auto w-auto md:h-[36rem] md:w-full rounded-3xl"
+            className="h-auto w-64 md:h-[36rem] md:w-full rounded-3xl"
             alt="Tela do chatbots"
           />
         </div>
