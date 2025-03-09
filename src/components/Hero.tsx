@@ -30,7 +30,7 @@ export function Hero() {
           >
             <button
               type="button"
-              className="h-14 w-48 bg-golden text-zinc-50 rounded-xl font-bold hover:brightness-110 transition ease-in-out delay-150 duration-300 mt-10 md:mt-8"
+              className="w-44 md:w-48 h-12 bg-golden text-zinc-50 rounded-xl font-bold hover:bg-mediumBeige transition-colors duration-300 mt-10 md:mt-8"
             >
               COMEÇAR AGORA
             </button>

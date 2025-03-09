@@ -74,7 +74,8 @@ export function Header() {
         >
           <button
             type="button"
-            className="h-12 md:h-14 w-48 md:w-40 bg-golden text-zinc-50 rounded-xl font-bold hover:brightness-110 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 order-1"
+            className="w-40 md:w-48 h-12 bg-golden text-zinc-50 rounded-xl font-bold 
+            hover:bg-mediumBeige transition-all duration-500 ease-out hover:-translate-y-1 hover:scale-105 order-1"
           >
             CONECTE-SE
           </button>

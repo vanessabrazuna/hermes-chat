@@ -50,10 +50,12 @@ export function VideoSession() {
       </div>
 
       <div className="flex justify-center items-center flex-col md:flex-row md:h-[550px]">
-        <div className="hidden md:flex flex-1 justify-center items-center">
+        <div 
+          className="hidden md:flex flex-1 justify-center items-center"
+        >
           <img
             src={currentImage}
-            className="rounded-3xl mb-8 md:mb-0 transition-all duration-500 ease-in-out h-[650px] w-auto"
+            className="rounded-md mb-8 md:mb-0 transition-all duration-500 ease-in-out h-[650px] w-auto"
             alt="Celular no chatbots"
           />
         </div>

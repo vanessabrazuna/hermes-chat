@@ -1,7 +1,5 @@
 import { Bot, ListTodo, Scan, Users, WandSparkles } from 'lucide-react'
 import Notebook from '../assets/images/notebook.png'
-import Notebook2 from '../assets/images/notebook2.png'
-import Mobile from '../assets/images/mobile.png'
 
 export function Demonstration() {
   return (
@@ -11,26 +9,16 @@ export function Demonstration() {
       </h2>
 
       <div className="flex justify-center items-center flex-col">
-        <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-8 place-items-center">
+        <div className="grid gap-6 place-items-center">
           <img
             src={Notebook}
-            className="h-[250px] w-auto md:h-[350px] md:w-full rounded-3xl shadow-shape"
-            alt="Tela do chatbots"
-          />
-          <img
-            src={Mobile}
-            className="h-[350px] w-auto md:h-[350px] md:w-full rounded-3xl shadow-shape"
-            alt="Tela do chatbots"
-          />
-          <img
-            src={Notebook2}
-            className="h-[250px] w-auto md:h-[350px] md:w-full rounded-3xl shadow-shape"
+            className="h-auto w-auto md:h-[36rem] md:w-full rounded-3xl"
             alt="Tela do chatbots"
           />
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-24 items-center md:justify-center">
-          <div className="flex flex-col justify-center items-center p-3 gap-6 h-[265px] w-80 rounded-[20px] ring-1 ring-zinc-300">
+          <div className="flex flex-col justify-center items-center p-3 gap-6 h-[265px] w-80 rounded-[20px] ring-1 ring-zinc-300 hover:animate-bounce cursor-pointer transition-all duration-500 ease-out">
             <div className="bg-Beige text-zinc-50 rounded-xl p-2.5 flex justify-center items-center h-[50px] w-[50px]">
               <Scan className="size-8" />
             </div>
@@ -43,7 +31,7 @@ export function Demonstration() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center p-3 gap-6 h-[265px] w-80 rounded-[20px] ring-1 ring-zinc-300">
+          <div className="flex flex-col justify-center items-center p-3 gap-6 h-[265px] w-80 rounded-[20px] ring-1 ring-zinc-300 hover:animate-bounce cursor-pointer transition-all duration-500 ease-out">
             <div className="bg-Beige text-zinc-50 rounded-xl p-2.5 flex justify-center items-center h-[50px] w-[50px]">
               <Users className="size-8" />
             </div>
@@ -56,7 +44,7 @@ export function Demonstration() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center p-3 gap-6 h-[265px] w-80 rounded-[20px] ring-1 ring-zinc-300">
+          <div className="flex flex-col justify-center items-center p-3 gap-6 h-[265px] w-80 rounded-[20px] ring-1 ring-zinc-300 hover:animate-bounce cursor-pointer transition-all duration-500 ease-out">
             <div className="bg-Beige text-zinc-50 rounded-xl p-2.5 flex justify-center items-center h-[50px] w-[50px]">
               <Bot className="size-8" />
             </div>
@@ -70,7 +58,7 @@ export function Demonstration() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mt-8 items-center md:justify-center">
-          <div className="flex flex-col justify-center items-center p-3 gap-6 h-[265px] w-80 rounded-[20px] ring-1 ring-zinc-300">
+          <div className="flex flex-col justify-center items-center p-3 gap-6 h-[265px] w-80 rounded-[20px] ring-1 ring-zinc-300 hover:animate-bounce cursor-pointer transition-all duration-500 ease-out">
             <div className="bg-Beige text-zinc-50 rounded-xl p-2.5 flex justify-center items-center h-[50px] w-[50px]">
               <ListTodo className="size-8" />
             </div>
@@ -83,7 +71,7 @@ export function Demonstration() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center p-3 gap-6 h-[265px] w-80 rounded-[20px] ring-1 ring-zinc-300">
+          <div className="flex flex-col justify-center items-center p-3 gap-6 h-[265px] w-80 rounded-[20px] ring-1 ring-zinc-300 hover:animate-bounce cursor-pointer transition-all duration-500 ease-out">
             <div className="bg-Beige text-zinc-50 rounded-xl p-2.5 flex justify-center items-center h-[50px] w-[50px]">
               <WandSparkles className="size-8" />
             </div>
